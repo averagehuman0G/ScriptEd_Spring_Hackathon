@@ -1,8 +1,9 @@
 $(document).ready(function(){
-//   $('#x').click(function() {
-//     $('#can').hide('fast');
-//     $('#x').hide('fast');
-// });
+  $('#x').click(function() {
+     $('.colors').hide();
+    $('#can').hide('fast');
+    $('#x').hide('fast');
+});
     
 
 

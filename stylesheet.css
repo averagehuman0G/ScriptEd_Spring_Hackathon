@@ -52,3 +52,15 @@
     display: none;
     
 }
+
+#x {
+    border: 1px solid red;
+    background-image: url("http://jacksonville.com/adhub/tools/templates/gray-square_white-x_v2.png");
+    background-position: center center;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    float: right;
+    position: absoulte;  
+    display: none;
+}
