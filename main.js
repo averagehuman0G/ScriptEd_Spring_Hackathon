@@ -3,6 +3,7 @@ $(document).ready(function(){
      $('.colors').hide();
     $('#can').hide('fast');
     $('#x').hide('fast');
+    	stream.pause();
 });
     
 
