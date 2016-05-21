@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Headphone Customization</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-kVo/Eh0sv7ZdiwZK32nRsp1FrDT3sLRLx3zVpSSTI9UdO5H02LJNLBg5F1gwvKg0" crossorigin="anonymous">
+        
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+        <!--our javascript-->
+        
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        
+        <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        
+        
+    </head>
+    <body >
+        <div class="page-header">
+            <h1>Headphone Customization</h1>
+        </div>
+        <div class="container">
+            
+            <div id="genreBox">
+                <div class="row" id="topRow">
+                    <div class="col-md-3 genres" id="kpop">
+                        <div class="card">
+                            <div class="front">
+                                <p>Kpop</p>
+                                <img class="album play-btn" id='music-kpop' src="https://colorcodedlyrics.com/wp-content/uploads/2015/08/Lion-Heart-SNSD.jpg"/>
+                            </div>
+                            <div class="back">
+                                <img src="http://lorempixel.com/200/200/nature"/>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 genres" id="jazz">
+                        <div class="card">
+                            <div class="front">
+                                <p>Jazz</p>
+                                <img class="album" src="http://www.deejay.de/images/xl/3/7/47237.jpg"/>
+                            </div>
+                            <div class="back">
+                               <img src="http://lorempixel.com/200/200/nature"/>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 genres" id="dubstep">
+                        <div class="card">
+                            <div class="front">
+                                <p>Dubstep</p>
+                                <img class="album" src="http://i.imgur.com/xF0Orfx.jpg"/>
+                            </div>
+                            <div class="back">
+                                <img src="http://lorempixel.com/200/200/nature"/>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 genres" id="rock">
+                        <div class="card">
+                            <div class="front">
+                                <p>Rock</p>
+                                <img class="album" src="https://upload.wikimedia.org/wikipedia/en/e/ef/Led_Zeppelin_-_Led_Zeppelin_(1969)_front_cover.png"/>
+                            </div>
+                            <div class="back">
+                               <img src="http://lorempixel.com/200/200/nature"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="middleRow">
+                    <div class="col-md-3 genres" id="80s">
+                        <div class="card">
+                            <div class="front">
+                                <p>80s</p>
+                                <img class="album" src="https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"/>
+                            </div>
+                            <div class="back">
+                                <img src="http://lorempixel.com/200/200/nature"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 genres" id="90s">
+                        <div class="card">
+                            <div class="front">
+                                <p>90s</p>
+                                <img class="album" src="https://upload.wikimedia.org/wikipedia/en/e/e5/In_Utero_(Nirvana)_album_cover.jpg"/>
+                            </div>
+                            <div class="back">
+                                <img src="http://lorempixel.com/200/200/nature"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 genres" id="classical">
+                        <div class="card">
+                            <div class="front">
+                                <p>Classical</p>
+                                <img class="album" src="http://img.cdandlp.com/2013/08/imgL/116140292.jpg"/>
+                            </div>
+                            <div class="back">
+                                <img src="http://lorempixel.com/200/200/nature"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 genres" id="runningMan">
+                        <div class="card">
+                            <div class="front">
+                                <p>Running Man</p>
+                                <img class="album" src="http://static.stereogum.com/uploads/2011/08/00-ghost_town_djs-my_boo-cdm-1996.jpeg"/>
+                            </div>
+                            <div class="back">
+                                 <img src="http://lorempixel.com/200/200/nature"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>       
+        <div class="canvas">
+            <canvas id="can" width="800" height="800" style="position:absolute;top:10%;left:10%;border:2px solid;"></canvas>
+            <div style="position:absolute;top:12%;left:43%;">Choose Color</div>
+            <div style="position:absolute;top:20%;left:43%;">Eraser</div>
+            <div style="position:absolute;top:15%;left:45%;width:10px;height:10px;background:green;" id="green" onclick="color(this)"></div>
+            <div style="position:absolute;top:15%;left:46%;width:10px;height:10px;background:blue;" id="blue" onclick="color(this)"></div>                
+            <div style="position:absolute;top:15%;left:47%;width:10px;height:10px;background:red;" id="red" onclick="color(this)"></div>
+            <div style="position:absolute;top:17%;left:45%;width:10px;height:10px;background:yellow;" id="yellow" onclick="color(this)"></div>                    
+            <div style="position:absolute;top:17%;left:46%;width:10px;height:10px;background:orange;" id="orange" onclick="color(this)"></div>               
+            <div style="position:absolute;top:17%;left:47%;width:10px;height:10px;background:black;" id="black" onclick="color(this)"></div>
+            <div style="position:absolute;top:22%;left:45%;width:15px;height:15px;background:white;border:2px solid;" id="white" onclick="color(this)"></div>
+            <img id="canvasimg" style="position:absolute;top:10%;left:52%;" style="display:none;">
+            <input type="button" value="save" id="btn" size="30" onclick="save()" style="position:absolute;top:55%;left:10%;">
+            <input type="button" value="clear" id="clr" size="23" onclick="erase()" style="position:absolute;top:55%;left:15%;">
+        </div>
+                
+                <script src="https://connect.soundcloud.com/sdk/sdk-3.1.1.js"></script>
+                <script src="main.js"></script>
+                <script src="app.js"></script>
+        
+    
+    
+    </body>
+</html>

@@ -1,0 +1,39 @@
+// function pick_headphone(album) {
+//   var album_id = album;
+//   alert(album_id);
+// }
+
+
+
+// var genres_list = ["jazz", "rock", "Kpop", "80s", "90s", "dubstep", "calssical", "runningMan"];
+
+
+// var Genres_ID = {
+// "jazz": "#jazz",
+// "Kpop": "#Kpop",
+// "dubstep": "#dubstep",
+// "rock": "#rock",
+// "80s": "#80s",
+// "90s": "#80s",
+// "classical": "#classical",
+// "runningMan": "#runningMan"
+// };
+
+// function rating_system() {
+//   var kanye_words = {
+//     "1":["wack.", "levae please.", "that aight knaye!", "what are you doing?", "what is that?","",""];
+//     "2":["", "", "", "", "","",""];
+//     "3":["", "", "", "", "","",""];
+//     "4":["", "", "", "", "","",""];
+//     "5":["", "", "", "", "","",""];
+//     "6":["", "", "", "", "","",""];
+//     "7":["", "", "", "", "","",""];
+//     "8":["", "", "", "", "","",""];
+//     "9":["", "", "", "", "","",""];
+//     "10":["Now that is knaye!!!", "Ayyyeeeeee", "Yeezy fresh.", "I give this a Kanye out of Kanye", "Kanye approve","",""];
+// };
+// rating_system();
+
+
+
+// pick_headphone();
