@@ -1,4 +1,18 @@
 var stream;
+var canvas1 = document.getElementById('can');
+var context = canvas1.getContext('2d');
+
+
+
+function make_base()
+{
+  base_image = new Image();
+  base_image.src = 'headPhones/Headphone.png';
+  base_image.onload = function(){
+    context.drawImage(base_image, 100, 100);
+  }
+}
+
 var canvas, ctx, flag = false,
         prevX = 0,
         currX = 0,
@@ -7,7 +21,7 @@ var canvas, ctx, flag = false,
         dot_flag = false;
 
     var x = "black",
-        y = 2;
+        y = 10;
     
     function init() {
         canvas = document.getElementById('can');
@@ -114,6 +128,16 @@ var canvas, ctx, flag = false,
         }
     }
 $(document).ready(function(){
+    $("#show").click(function(){
+        show();
+    })
+    
+    function show(){    
+        $("#genreBox").css("display", "inline");
+        $("#can").css("display", "none");
+        $(".colors").removeClass("colors");
+    }
+  make_base();
   init();
   SC.initialize({
     client_id: 'd4ab52d80ed2e7790c3a243495b30093'
@@ -137,10 +161,11 @@ $(document).ready(function(){
 
 var songs = {
   "music-jazz": ["174214977","240815698","94296164"],
-  "music-kpop": ["208277230","13774667","262400424"],
+  "music-kpop": ["208277230","13774667","262403010"],
   "music-dubstep": ["79430918","57809396","24427985"],
   "music-80s": ["28261394","9359659","135334158"],
-  "music-90s":["258954573","253244395","253479505"],
+  "music-90s": ["254119693","254119693","254119693"],
+  //"music-90s":["258954573","253244395","253479505"],
   "music-classical":["135334158","65833474","106479667"],
   "music-runningMan": ["157524704","9728990","157524704"],
   "music-rock": ["50623988","182326112","232437731"]

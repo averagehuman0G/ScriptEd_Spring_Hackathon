@@ -1,3 +1,10 @@
+.title-top {
+   font-family: 'Orbitron', sans-serif;
+    
+}
+.colors{
+    display:none;
+}
 .album{
     width: 200px;
     height: 200px;
@@ -26,12 +33,22 @@
     padding: 35px;
     border: 1px solid white;
     margin: 25px;
-    display: none;
 }
 
 .canvas{
     float: right;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
     display: none;
+}
+
+#can{
+    background-image: url('headPhones/Headphone.png');
+    background-size: 500px;
+    background-position: center center;
+    background-size: cover;
+  
+    background-color: rgba(255,255,255,0.60);
+    display: none;
+    
 }
